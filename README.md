@@ -1,2 +1,2 @@
-# PRODIGI_FSWD_05
-This is a 5th task of prodigi.
+# PRODIGY_FSWD_05
+This is a 5th task of prodigy.
