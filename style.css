@@ -1,34 +1,42 @@
 * {
   box-sizing: border-box;
   font-family: Arial, sans-serif;
-  background-color: #008080;
+  background-color:white
 }
 
 body {
-  background: #f2f2f2;
+ 
   margin: 0;
 }
 
 header {
-  background: #87cceb;
-  color: white;
+  
+
+  color: rgb(230, 6, 6);
   padding: 15px;
   text-align: center;
 }
 
 .create-post {
-  background: #c4d8c2;
+  background: rgb(131, 130, 130);
   
   padding: 15px;
   margin: 15px;
-  border-radius: 8px;
+  border-radius: 25px;
 }
 
 .create-post textarea {
+  color : black;
+    background-image:url("E:/internship/PRODIGY_FSWD_05/image/2.jpg");
+  background-size: cover;
+
   
-  width: 100%;
-  height: 80px;
-  padding: 10px;
+  width: 50%;
+  height: 200px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
 }
 
 .create-post input,
@@ -38,8 +46,8 @@ header {
   padding: 8px;
 }
 
-.create-post button {
-  background: #4a90e2;
+.create-post button:hover {
+  background-color: #d70303;
   color: white;
   border: none;
   cursor: pointer;
@@ -47,25 +55,28 @@ header {
 }
 
 .feed {
+  
   margin: 15px;
+  
+
 }
 
 .post {
-  background: white;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 8px;
+  background: rgb(123, 123, 123);
+  padding:15px;
+  margin-bottom: 25px;
+  border-radius: 5px;
 }
 
 .post img,
 .post video {
-  width: 100%;
+  width: 50%;
   margin-top: 10px;
   border-radius: 6px;
 }
 
 .tags {
-  color: #4a90e2;
+ 
   margin-top: 5px;
 }
 
@@ -79,10 +90,13 @@ header {
 }
 
 .comments {
+  color:black;
+  
   margin-top: 10px;
 }
 
 .comments input {
-  width: 100%;
-  padding: 5px;
+  
+  width:100%;
+  padding:5px;
 }
