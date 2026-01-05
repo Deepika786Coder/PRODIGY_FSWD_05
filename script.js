@@ -1,3 +1,4 @@
+
 let posts = [];
 
 function createPost() {
